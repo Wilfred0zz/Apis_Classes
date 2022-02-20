@@ -2,17 +2,28 @@
 
 interface IProflieInterface<T>
 {
-    void ProfileInfo(T obj);
+    void ProfileInfo(T obj); 
+
 }
-public class newUserProfile
+
+interface User
+{
+    string name { get; set; }
+    int age { get; set; }
+    char gender { get; set; }
+}
+
+public class newUserProfile: User
 {
     public string name { get; set; }
     public int age { get; set; }
     public char gender { get; set; }
+
 };
 
 public class SetUserProfileInfo: IProflieInterface<newUserProfile>
 {
+
     //delegate definition
     public delegate void SettingProfileEventHandler(object source, EventArgs e);
 
@@ -21,10 +32,11 @@ public class SetUserProfileInfo: IProflieInterface<newUserProfile>
 
      public void ProfileInfo(newUserProfile newUserProfileInfo)
     {
-        Console.WriteLine($"Creating new user account so that you can experience the world of socials '{newUserProfileInfo.name}', Loading..");
+        Console.WriteLine($"Creating new user account so that you can experience the world of socials '{newUserProfileInfo.name}', Loading.. ");
         Thread.Sleep(2000);
-        Console.WriteLine($"Adding your age '{newUserProfileInfo.age}' ...  ");
-        Thread.Sleep(1000);
+        Console.WriteLine($"Adding your age '{newUserProfileInfo.age}'... ");
+
+
         Console.WriteLine($"Saving gender '{newUserProfileInfo.gender}'.... \n");
         Thread.Sleep(2000);
 
