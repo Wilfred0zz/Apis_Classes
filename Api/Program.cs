@@ -36,7 +36,7 @@
                 UserAdded(this, EventArgs.Empty);
         }
 
-
+        //indexer
         private int[] arr = new int[5];
         public int this[int profileId]
         { get => arr[profileId]; set => arr[profileId] = value; }
