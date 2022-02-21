@@ -7,9 +7,10 @@
         public char Gender { get; set; }
         public string Email { get; set; }
 
-        public void PrintInfoEntered()
+        public void ShowInfoEntered()
         {
-            Console.WriteLine($"Your name is: {Name}, Your age is: {Age}, Your Gender is: {Gender}, Your Email is  {Email}");
+            Console.WriteLine($"Your name is: {Name}, Your age is: {Age}, Your Gender is: {Gender}, Your Email is  {Email}...");
+          
         }
 
 
@@ -58,7 +59,7 @@
         {
             User userProfile = new User { Name = "Wilfredo", Age = 21, Gender = 'M', Email = "lol@gmail.com" };
 
-            userProfile.PrintInfoEntered();
+            userProfile.ShowInfoEntered();
 
             var userNotification = new MessageUserProfileSet();//subscriber
             userProfile[0] = 3;

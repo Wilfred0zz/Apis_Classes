@@ -13,7 +13,7 @@ namespace UsersApi
         char Gender { get; set; }
         string Email { get; set; }
 
-        void PrintInfoEntered();
+        void ShowInfoEntered();
 
         void CreateUser();
 
