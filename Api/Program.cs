@@ -9,7 +9,7 @@
 
         public void ShowInfoEntered()
         {
-            Console.WriteLine($"Your name is: {Name}, Your age is: {Age}, Your Gender is: {Gender}, Your Email is  {Email}...");
+            Console.WriteLine($"Your name is: {Name}, Your age is: {Age}, Your Gender is: {Gender}, Your Email is  {Email}... please wait");
           
         }
 
