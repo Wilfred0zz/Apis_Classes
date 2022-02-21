@@ -1,0 +1,15 @@
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\bin\Debug\net6.0\UsersApi.exe
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\bin\Debug\net6.0\UsersApi.deps.json
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\bin\Debug\net6.0\UsersApi.runtimeconfig.json
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\bin\Debug\net6.0\UsersApi.dll
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\bin\Debug\net6.0\ref\UsersApi.dll
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\bin\Debug\net6.0\UsersApi.pdb
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\obj\Debug\net6.0\UsersApi.csproj.AssemblyReference.cache
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\obj\Debug\net6.0\UsersApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\obj\Debug\net6.0\UsersApi.AssemblyInfoInputs.cache
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\obj\Debug\net6.0\UsersApi.AssemblyInfo.cs
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\obj\Debug\net6.0\UsersApi.csproj.CoreCompileInputs.cache
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\obj\Debug\net6.0\UsersApi.dll
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\obj\Debug\net6.0\ref\UsersApi.dll
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\obj\Debug\net6.0\UsersApi.pdb
+C:\Users\wilfr\source\repos\IntroToApi\UsersApi\obj\Debug\net6.0\UsersApi.genruntimeconfig.cache
